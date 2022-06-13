@@ -1,0 +1,474 @@
+/* ----------------------------------------MEDIAS QUERIES (TABLET Y PANTALLAS PEQUEÑAS)---------------------------------------------------------------------- */
+
+
+@media  screen and (min-width:768px) and (max-width:1399px) {
+
+    /* ----------INDEX------------ */
+
+    /* HEADER */
+    
+    .menu {
+        display: none;
+    }
+
+    .menu-movil {
+        display: block;
+        grid-column: 7;
+        font-size: 3em;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-left: 30px;
+        color: #303C57;
+    }    
+
+    /* SLIDER */
+
+    .slider__li-img {
+        width: 100%;
+        height: 500px;
+    }
+
+    /* FORMULARIO */
+
+
+    .titulo-seccion2 { 
+        font-size: 40px;
+        margin-top: 7rem;
+        margin-bottom: 5.5rem;
+        margin-left: 3rem;
+        color: #4A59EB;
+    }
+
+    .formulario {      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 95%;
+        height: 1200px;
+        box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+
+    .titulo-formulario {
+        margin-bottom: 3rem;
+        font-size: 23px;
+        color: #4A59EB;
+    }
+
+
+    .input-comun {
+        width: 670px;
+        height: 30px;
+        background-color: #ffffff;
+        border: none;
+        border-bottom: 2px solid #4A59EB;
+        outline: none;   
+        color: rgba(83, 83, 83, 0.918);
+    }
+
+    .text-area-movil {
+        display: none;
+    }
+
+    .text-area {
+        display: none;
+    }
+
+    .text-area-tablet {
+        display: inline-block;
+        margin-bottom: 1rem;
+        background-color: #ffffff;
+        color: rgba(83, 83, 83, 0.918);
+        border: solid 2px #4A59EB;
+        outline: none;
+        text-align: left;
+        resize: none;
+    }
+
+    /* FOOTER */
+
+    
+    .qr-img {
+        grid-column: 1 / 3;
+        height: 122px;
+        width: 94px;
+        margin-left: 100px;
+    }
+    
+    .contenedor-footer__p {
+        display: none;
+    }
+    
+    .contenedor-redes-sociales {
+        grid-column: 10 / 12;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .fa-brands {
+        font-size: 30px;
+    }
+    
+    .contenedor-redes-sociales__li {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    
+    .contenedor-redes-sociales__h3 {
+        color: #4A59EB;
+        margin-bottom: 10px;
+        margin-left: 13px;       
+    }
+
+    .fa-facebook-square {
+        color: rgb(24, 99, 211);
+        &:hover {
+            color: rgb(17, 43, 60);
+        } 
+    }
+    
+    .fa-instagram {
+        color: rgb(167, 54, 106);
+        &:hover {
+            color: rgb(104, 32, 66);
+        } 
+    }
+    
+    .fa-twitter-square {
+        color: rgb(53, 143, 216);
+        &:hover {
+            color: rgb(17, 43, 60);
+        } 
+    }
+    
+    .fa-linkedin {
+        color: rgb(47, 96, 168);
+        &:hover {
+            color: rgb(17, 43, 60);
+        } 
+    }
+    
+    /* ----------COMO FUNCIONA------------ */
+
+    .como-funciona {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .article-desktop {
+        display: none;
+    }
+
+    .article-movil {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+        border-radius: 5px;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .article-desktop__img {
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+    }
+
+    .article-movil__p {
+        align-content: center;
+        text-align: center;
+        padding-left: 55px;
+        padding-top: 38px;
+        padding-bottom: 45px;
+        padding-right: 55px;
+        color: #303C57;
+    }
+
+    .article-movil__h3 {
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        color: #4A59EB;
+        font-size: 30px;
+    }
+
+}
+
+/* ---------------------------------------------------------MEDIAS QUERIES MOVIL------------------------------------------------------------------------ */
+
+@media  screen and (max-width:767px) {
+
+    /* ----------INDEX------------ */
+
+    /* HEADER */
+
+    .logotipo-movil {
+        display: block;
+        width: 80px;
+        height: 80px;
+        grid-column: 2 / 5;
+    }
+
+    .logotipo {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-movil {
+        display: block;
+        grid-column: 7;
+        font-size: 2em;
+        cursor: pointer;
+        margin-left: 8px;
+        color: #303C57;
+    }
+
+
+    .nav-bar {
+        width: 100%;
+        height: 150px;
+        background-image: linear-gradient(to top, #ffffff, #f2f2f2, #e6e5e5, #dad8d8, #cecccb);
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        align-items: center;
+    }
+
+    /* SLIDER */
+
+    .slider__li-img {
+        width: 100%;
+        height: 300px;
+    }
+    
+
+    /* TARJETAS */
+
+    .titulo-seccion1 {
+        font-size: 28px;
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+        margin-left: 1rem;
+        color: #4A59EB;
+    }
+
+    .input-provincia {
+        margin-bottom: 20px;
+    }
+
+    .seccion1__articulo {
+        background-color: #ffffff;
+        width: 350px;
+        height: 500px;
+        box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        border-radius: 5px;
+
+    }
+
+    /* FORMULARIO */
+
+
+    .titulo-seccion2 { 
+        align-content: flex-start;
+        font-size: 28px;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 0.5em;
+        color: #4A59EB;
+    }
+
+    .formulario {      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1200px;
+        box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+
+    .titulo-formulario {
+        margin-bottom: 3rem;
+        font-size: 23px;
+        color: #4A59EB;
+    }
+
+
+    .input-comun {
+        width: 300px;
+        height: 30px;
+        background-color: #ffffff;
+        border: none;
+        border-bottom: 2px solid #4A59EB;
+        outline: none;   
+        color: rgba(83, 83, 83, 0.918);
+    }
+
+    .text-area-tablet {
+        display: none;
+    }
+
+    .text-area {
+        display: none;
+    }
+
+    .text-area-movil {
+        display: inline-block;
+        margin-bottom: 1rem;
+        background-color: #ffffff;
+        color: rgba(83, 83, 83, 0.918);
+        border: solid 2px #4A59EB;
+        outline: none;
+        text-align: left;
+        resize: none;
+    }
+
+    .adjunto {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    /* FOOTER */
+    
+    .qr-img {
+        grid-column: 1 / 2;
+        height: 90px;
+        width: 70px;
+        margin-left: 20px;
+    }
+    
+    .contenedor-footer__p {
+        display: none;
+    }
+    
+    .contenedor-redes-sociales {
+        grid-column: 6/12;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fa-brands {
+        font-size: 25px;
+    }
+    
+    .contenedor-redes-sociales__li {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    
+    .contenedor-redes-sociales__h3 {
+        color: #4A59EB;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        font-size: 18px;        
+    }
+
+    .fa-facebook-square {
+        color: rgb(24, 99, 211);
+    }
+    
+    .fa-instagram {
+        color: rgb(167, 54, 106);
+    }
+    
+    .fa-twitter-square {
+        color: rgb(53, 143, 216);
+    }
+    
+    .fa-linkedin {
+        color: rgb(47, 96, 168);
+    }
+    
+    .fa-facebook-square:hover {
+        color: rgb(17, 43, 60);
+    } 
+    
+    .fa-instagram:hover {
+        color: rgb(104, 32, 66);
+    } 
+    
+    .fa-twitter-square:hover {
+        color: rgb(17, 43, 60);
+    } 
+    
+    .fa-linkedin:hover {
+        color: rgb(17, 43, 60);
+    } 
+
+
+    /* ----------COMO FUNCIONA------------ */
+
+    .como-funciona {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .article-desktop {
+        display: none;
+    }
+
+    .article-movil {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+        border-radius: 5px;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .article-movil__img {
+        width: 240px;
+        height: 260px;
+    }
+
+    .article-movil__p {
+        align-content: center;
+        text-align: center;
+        padding-left: 55px;
+        padding-top: 38px;
+        padding-bottom: 45px;
+        padding-right: 55px;
+        color: #303C57;
+    }
+
+    .article-movil__h3 {
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        color: #4A59EB;
+    }
+
+}

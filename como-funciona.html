@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index">
+    <meta name="author" content="Gabriel Hernan Arias">
+    <meta name="copyright" content="Fiar Créditos SAS">
+    <meta name="robots" content="follow">
+    <link rel="icon" href="img/index/logos/isologo.png"> <!--Icono pestaña-->
+    <script src="https://kit.fontawesome.com/a1779d4658.js" crossorigin="anonymous"></script> <!--Iconos (Font Awesome)-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--Fuente (Google Fonts)-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap" rel="stylesheet"> <!--Fuente (Google Fonts)-->
+    <title>Fiar Créditos</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Animacion libreria (AOS)-->
+    <link rel="stylesheet" href="css/styles.css"> <!--Link CSS-->    
+</head>
+
+<body>
+    <header class="header"> <!--Empieza el header-->
+        <nav class="nav-bar">           
+            <img class="logotipo-movil" src="./img/index/logos/isologo.png" alt="logotipo">                
+            <img class="logotipo" src="./img/index/logos/logo.png" alt="logotipo">
+            <ul class="menu">
+                <li class="menu__li"><a class="menu__a" href="index.html">Inicio</a></li>
+                <li class="menu__li"><a class="menu__a" href="como-funciona.html">¿Cómo Funciona?</a></li>
+                <li class="menu__li"><a class="menu__a" href="#">Sobre Nosotros</a></li>
+                <li class="menu__li"><a class="menu__a" href="#">Preguntas Frecuentes</a></li>
+                <li class="menu__li"><a class="menu__a" href="#">Testimonios</a></li>
+            </ul>
+            <a href="menu.html" class="menu-movil">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </nav>
+    </header> <!--Termina el header-->
+    <main class="main-index">
+        <div class="slider"> <!--Empieza el slider-->
+            <ul class="slider__ul">
+                <li class="slider__li"><img class="slider__li-img" src="./img/index/slider/img-c-1.png" alt="img-slider"></li>
+                <li class="slider__li"><img class="slider__li-img" src="./img/index/slider/img-c-2.png" alt="img-slider"></li>
+                <li class="slider__li"><img class="slider__li-img" src="./img/index/slider/img-c-3.png" alt="img-slider"></li>
+            </ul>        
+        </div>  <!--Termina el slider-->
+        <section class="como-funciona"> <!--Empieza seccion tarjetas-->        
+            <article class="article-desktop" data-aos="fade-right"> <!--Empieza version desktop y tablet-->
+                <img class="article-desktop__img" src="./img/como-fun/cf-uno.png" alt="imagen solicitud">
+                <div class="article-desktop__div">
+                    <h3 class="article-desktop__div-h3">Solicitás tu crédito:</h3>
+                    <p class="article-desktop__div-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit adipisci atque recusandae, praesentium tempora corrupti quisquam rerum temporibus aut veniam natus eveniet modi porro cupiditate harum perferendis nulla quo?</p>     
+                </div>
+            </article>
+            <article class="article-desktop" data-aos="fade-left">
+                <img class="article-desktop__img" src="./img/como-fun/cf-dos.png" alt="imagen aprovacion">
+                <div class="article-desktop__div">
+                    <h3 class="article-desktop__div-h3">Te aprobamos:</h3>
+                    <p class="article-desktop__div-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim officia, quisquam quis magnam excepturi, tenetur deserunt eius non mollitia praesentium molestias. Obcaecati magni illum perferendis voluptatem dolorem nostrum nulla ut?</p>                                
+                </div>
+            </article>
+            <article class="article-desktop" data-aos="fade-right">
+                <img class="article-desktop__img" src="./img/como-fun/cf-tres.png" alt="imagen dinero">
+                <div class="article-desktop__div">
+                    <h3 class="article-desktop__div-h3">Te acreditamos el monto:</h3>
+                    <p class="article-desktop__div-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ea eligendi reprehenderit, ipsum obcaecati, minus veritatis reiciendis magnam deserunt beatae nam ipsam ullam numquam. Rem totam nobis eum blanditiis facilis.</p>                                
+                </div>
+            </article>
+            <article class="article-desktop" data-aos="fade-left">
+                <img class="article-desktop__img" src="./img/como-fun/cf-cuatro.png" alt="imagen disfrutar">
+                <div class="article-desktop__div">
+                    <h3 class="article-desktop__div-h3">Lo distrutás como más queres:</h3>
+                    <p class="article-desktop__div-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nihil blanditiis nam amet omnis? Beatae officia quo modi, facilis ipsa, molestias eaque, est corporis explicabo veritatis mollitia recusandae fugit accusantium.</p>                                
+                </div>
+            </article> <!--Termina version desktop y tablet-->
+            <article class="article-movil" data-aos="fade-right">  <!--Empieza version movil-->
+                <h3 class="article-movil__h3">Solicitás tu crédito:</h3>
+                <img class="article-movil__img" src="./img/como-fun/cf-uno.png" alt="imagen solicitud"> 
+                <p class="article-movil__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nihil blanditiis nam amet omnis? Beatae officia quo modi, facilis ipsa, molestias eaque, est corporis explicabo veritatis mollitia recusandae fugit accusantium.</p>                                    
+            </article>
+            <article class="article-movil" data-aos="fade-left">
+                <h3 class="article-movil__h3">Te aprobamos:</h3>
+                <img class="article-movil__img" src="./img/como-fun/cf-dos.png" alt="imagen aprobacion"> 
+                <p class="article-movil__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nihil blanditiis nam amet omnis? Beatae officia quo modi, facilis ipsa, molestias eaque, est corporis explicabo veritatis mollitia recusandae fugit accusantium.</p>                                    
+            </article>
+            <article class="article-movil" data-aos="fade-right">
+                <h3 class="article-movil__h3">Te acreditamos el monto:</h3>
+                <img class="article-movil__img" src="./img/como-fun/cf-tres.png" alt="imagen dinero"> 
+                <p class="article-movil__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nihil blanditiis nam amet omnis? Beatae officia quo modi, facilis ipsa, molestias eaque, est corporis explicabo veritatis mollitia recusandae fugit accusantium.</p>                                    
+            </article>
+            <article class="article-movil" data-aos="fade-left">
+                <h3 class="article-movil__h3">Lo distrutás como más queres:</h3>
+                <img class="article-movil__img" src="./img/como-fun/cf-cuatro.png" alt="imagen disfrutar"> 
+                <p class="article-movil__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nihil blanditiis nam amet omnis? Beatae officia quo modi, facilis ipsa, molestias eaque, est corporis explicabo veritatis mollitia recusandae fugit accusantium.</p>                                    
+            </article> <!--Termina la version movil-->
+        </section> <!--Termina la seccion tarjetas-->
+    </main>
+    <footer> <!--Empieza el footer-->
+        <div class="contenedor-footer"> 
+            <img class="qr-img" src="./img/index/aaip-qr.png" alt="imagen QR">
+            <div class="contenedor-footer__p">
+                <p>Fiar es un Proveedor de Servicios Crediticios y no una entidad financiera.</p>
+                <p>Fiar Créditos SAS - Todos los derechos reservados.</p>
+            </div>
+            <div class="contenedor-redes-sociales">
+                <h3 class="contenedor-redes-sociales__h3">Seguinos en:</h3> 
+                <ul class="contenedor-redes-sociales__ul">
+                    <li class="contenedor-redes-sociales__li">
+                        <a class="contenedor-redes-sociales__a" href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                    </li>
+                    <li class="contenedor-redes-sociales__li"> 
+                        <a class="contenedor-redes-sociales__a" href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="contenedor-redes-sociales__li">
+                        <a class="contenedor-redes-sociales__a" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    </li>
+                    <li class="contenedor-redes-sociales__li">    
+                        <a class="contenedor-redes-sociales__a" href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>                
+                </ul> 
+            </div>
+        </div>
+    </footer> <!--Termina el footer-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--Script de AOS (Animaciones)-->
+    <script>
+        AOS.init();
+    </script>    
+</body>
+</html>

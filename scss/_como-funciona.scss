@@ -1,0 +1,52 @@
+/* ----------COMO FUNCIONA------------ */
+
+.como-funciona{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+    .article-desktop {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+        border-radius: 5px;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        .article-desktop__img {
+            width: 300px;
+            height: 300px;
+            margin-left: 30px;
+        }
+        .article-desktop__div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            .article-desktop__div-h3 {
+                padding-right: 80px;
+                padding-top: 10px;
+                color: $f-color1;
+            }
+            .article-desktop__div-p {
+                padding-left: 55px;
+                padding-top: 38px;
+                padding-bottom: 45px;
+                padding-right: 100px;
+                color: $f-color2;
+            }
+        }
+    }
+    .article-movil {
+        display: none;
+    }
+}
